@@ -2447,3 +2447,27 @@ input, select, textarea {
 /* Harris added */
 
 .orange {color: orange;}
+
+a {text-decoration:none;}
+
+.folio {
+	font-size: 0.8rem;
+	/* background-color: #ffa500; */
+}
+
+@media screen and (max-width:1280px)
+{
+	.folio {
+		width:57%;
+	}
+	button{
+		margin-bottom:8px;
+	}
+}
+
+@media screen and (max-width:736px)
+{
+	.folio{
+		width:40%;
+	}
+}
