@@ -1,14 +1,17 @@
 import "./index.css";
-import Banner from "./assets/sections/Banner";
-import Hero from "./assets/sections/Hero";
-import Skills from "./assets/sections/Skills";
+import Banner from "./sections/Banner";
+import Hero from "./sections/Hero";
+import Skills from "./sections/Skills";
+import Projects from "./sections/Projects";
+
 const App = () => {
   return (
     <main className="font-montserrat text-zinc-700 ">
       <Banner />
-      <div className="container w-11/12 mx-auto max-w-[1000px]">
+      <div className="container w-10/12 mx-auto max-w-[1100px]">
         <Hero />
         <Skills />
+        <Projects />
       </div>
     </main>
   );
