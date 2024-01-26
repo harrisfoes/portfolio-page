@@ -58,7 +58,7 @@ const ContactCard = ({ name, image, info, isLink, link }) => {
   //console.log(name);
   return (
     <div className="animate-fade-in my-1 flex flex-row items-center gap-2 overflow-hidden p-2 md:p-4 lg:p-6">
-      <div className="rounded-full bg-blue-200 p-2">
+      <div className="rounded-full bg-slate-100 p-2">
         <img
           src={image}
           className="transform-all w-[1.4rem] opacity-50 duration-300 hover:scale-110 md:w-12"

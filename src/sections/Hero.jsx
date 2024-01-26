@@ -4,7 +4,7 @@ import Border from "../components/Border";
 function Hero() {
   return (
     <section>
-      <div className="hero-section mx-auto max-w-[600px] md:my-10 md:flex md:max-w-[1100px]  md:flex-row-reverse md:justify-between lg:my-20 ">
+      <div className="hero-section mx-auto max-w-[600px] md:my-10 md:flex md:max-w-[1100px] md:flex-row-reverse md:justify-between md:gap-2 lg:my-20 ">
         <div className="md:w-1/2">
           <img
             src={harrisPic}
@@ -19,7 +19,7 @@ function Hero() {
             </span>
           </h1>
           <div className="mx-auto max-w-[400px] p-4 text-center text-sm font-medium lg:text-lg">
-            Bachelor in <strong>Computer Engineering</strong>. I'm now a
+            Graduated in <strong>Computer Engineering</strong>. I'm now a
             front-end developer working in{" "}
             <span className="font-bold text-blue-500">React.js</span>. I'm a
             passionate programmer who loves building apps that people love to
