@@ -1,11 +1,11 @@
 import React from "react";
 import Border from "../components/Border";
-import html from "../assets/images/html5.png";
-import css from "../assets/images/css.png";
-import js from "../assets/images/javascript.png";
-import react from "../assets/images/react.png";
-import tailwind from "../assets/images/tailwindcss.svg";
-import python from "../assets/images/python.svg";
+import html from "../assets/images/skills/html5.png";
+import css from "../assets/images/skills/css.png";
+import js from "../assets/images/skills/javascript.png";
+import react from "../assets/images/skills/react.png";
+import tailwind from "../assets/images/skills/tailwindcss.svg";
+import python from "../assets/images/skills/python.svg";
 
 const skills = [
   { name: "HTML", image: html, level: "Advanced" },
@@ -38,7 +38,7 @@ function Skills() {
         <h1 className="mx-auto py-6 text-center text-xl font-bold text-neutral-700 md:py-7 lg:text-4xl">
           <span className=" border-b-4 border-b-amber-500">My Skills</span>
         </h1>
-        <div className="mx-auto mb-4 grid grid-cols-2 place-items-center gap-4  md:grid-cols-3 md:gap-2">
+        <div className="mx-auto mb-4 grid grid-cols-2 place-items-center gap-4  md:grid-cols-3 md:gap-2 md:py-10 lg:py-16">
           {skills.map((items) => {
             return (
               <SkillCard

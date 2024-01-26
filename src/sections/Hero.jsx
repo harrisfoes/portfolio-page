@@ -19,7 +19,8 @@ function Hero() {
             </span>
           </h1>
           <div className="mx-auto max-w-[400px] p-4 text-center text-sm font-medium lg:text-lg">
-            I'm a front-end developer currently working in{" "}
+            Bachelor in <strong>Computer Engineering</strong>. I'm now a
+            front-end developer working in{" "}
             <span className="font-bold text-blue-500">React.js</span>. I'm a
             passionate programmer who loves building apps that people love to
             use.
