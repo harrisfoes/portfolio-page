@@ -21,7 +21,7 @@ const projects = [
     isFeatured: true,
     tech: ["React", "TailwindCSS"],
     desc: "A minimalistic, mobile-friendly web portfolio that showcases my skills and projects. Designed in a way that's easy to maintain as I improve my craft. Sleek yet functional.",
-    link: "/",
+    link: "/portfolio-page",
     code: "https://github.com/harrisfoes/portfolio-page",
   },
   {

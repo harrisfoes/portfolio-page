@@ -25,14 +25,14 @@ const contact = [
   },
   {
     name: "Github",
-    info: "Project Repository",
+    info: "More Projects Here",
     image: github,
     isLink: true,
     link: "https://github.com/harrisfoes/",
   },
   {
     name: "LinkedIn",
-    info: "Connect with me",
+    info: "Let's Connect!",
     image: linkedIn,
     isLink: true,
     link: "https://www.linkedin.com/in/harris-escalante-07106a94/",
