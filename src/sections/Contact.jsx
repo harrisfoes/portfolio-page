@@ -103,7 +103,7 @@ function Contact() {
                 info={items.info}
                 isLink={items.isLink}
                 link={items.link}
-                keys={items.name}
+                key={items.name}
               />
             );
           })}
