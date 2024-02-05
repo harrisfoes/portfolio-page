@@ -7,6 +7,7 @@ import react from "../assets/images/skills/react.png";
 import tailwind from "../assets/images/skills/tailwindcss.svg";
 import python from "../assets/images/skills/python.svg";
 import typescript from "../assets/images/skills/ts.svg";
+import next from "../assets/images/skills/next.svg";
 
 const skills = [
   { name: "HTML", image: html, level: "Advanced" },
@@ -16,6 +17,7 @@ const skills = [
   { name: "TailwindCSS", image: tailwind, level: "Intermediate" },
   { name: "Python", image: python, level: "Intermediate" },
   { name: "Typescript", image: typescript, level: "Beginner" },
+  { name: "NextJS", image: next, level: "Beginner" },
 ];
 
 const SkillCard = ({ name, image, level }) => {
@@ -26,8 +28,8 @@ const SkillCard = ({ name, image, level }) => {
         className="transform-all w-[1.4rem] duration-300 hover:scale-110 md:w-14"
       />
       <div>
-        <p className="text-xs font-semibold md:text-base lg:text-lg">{name}</p>
-        <p className="text-xs opacity-75 md:text-base lg:text-lg">{level}</p>
+        <p className="text-xs font-semibold md:text-sm lg:text-base">{name}</p>
+        <p className="text-xs opacity-75 md:text-sm">{level}</p>
       </div>
     </div>
   );

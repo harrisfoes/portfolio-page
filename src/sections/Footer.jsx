@@ -7,8 +7,8 @@ function Footer() {
     <footer className="mx-auto w-full justify-center gap-3 bg-zinc-800 px-12 pb-4 pt-12 shadow-md lg:pt-28">
       <div className="container mx-auto flex max-w-[1100px] flex-col items-center gap-4 text-neutral-200 md:flex-row md:justify-between">
         <Logo />
-        <span className="px-6">
-          Design and Implementation by Harris Escalante 2024
+        <span className="px-6 text-sm">
+          Designed and written for the web by Harris Escalante 2024
         </span>
         <Icons />
       </div>
