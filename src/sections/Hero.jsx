@@ -20,7 +20,7 @@ function Hero() {
           </h1>
           <div className="mx-auto max-w-[400px] p-4 text-center text-sm font-medium lg:text-lg">
             Graduated in <strong>Computer Engineering</strong>.{" "}
-            <span className="font-bold text-slate-500">8 years </span>
+            <span className="font-bold text-slate-500">7+ years </span>
             professional programming experience. Now a Front-End Developer
             working in <span className="font-bold text-blue-500">React.js</span>
             . I'm a passionate programmer who loves building apps that people
