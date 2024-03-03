@@ -3,6 +3,7 @@ import audio_ecomm from "../assets/images/projects/audio-ecomm.jpg";
 import portfolio from "../assets/images/projects/portfolio.jpg";
 import multistep from "../assets/images/projects/multistep.jpg";
 import crypto from "../assets/images/projects/crypto.png";
+import countrylist from "../assets/images/projects/country-list.jpg";
 import Border from "../components/Border";
 
 const projects = [
@@ -23,6 +24,15 @@ const projects = [
     desc: "A minimalistic, mobile-friendly web portfolio that showcases my skills and projects. Designed in a way that's easy to maintain as I improve my craft. Sleek yet functional.",
     link: "/portfolio-page",
     code: "https://github.com/harrisfoes/portfolio-page",
+  },
+  {
+    name: "REST Countries API with color theme switcher",
+    image: countrylist,
+    isFeatured: false,
+    tech: ["React", "TailwindCSS", "Typescript"],
+    desc: "First Typescript project. Search for Countries and their details. Light-Dark theme switching that checks for browser's preference.",
+    link: "https://harrisfoes.github.io/country-list/",
+    code: "https://github.com/harrisfoes/country-list",
   },
   {
     name: "Multistep Form",
@@ -48,6 +58,7 @@ const TechStackCard = ({ name }) => {
   let thisColor = "text-black";
   if (name === "React") thisColor = "text-blue-400";
   if (name === "TailwindCSS") thisColor = "text-slate-500";
+  if (name === "Typescript") thisColor = "text-sky-500";
   return <div className={`font-bold uppercase ${thisColor}`}>{name}</div>;
 };
 

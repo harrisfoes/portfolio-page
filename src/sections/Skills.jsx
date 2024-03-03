@@ -16,7 +16,7 @@ const skills = [
   { name: "React", image: react, level: "Intermediate" },
   { name: "TailwindCSS", image: tailwind, level: "Intermediate" },
   { name: "Python", image: python, level: "Intermediate" },
-  { name: "Typescript", image: typescript, level: "Beginner" },
+  { name: "Typescript", image: typescript, level: "Intermediate" },
   { name: "NextJS", image: next, level: "Beginner" },
 ];
 
