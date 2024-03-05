@@ -1,24 +1,6 @@
 import React from "react";
 import Border from "../components/Border";
-import html from "../assets/images/skills/html5.png";
-import css from "../assets/images/skills/css.png";
-import js from "../assets/images/skills/javascript.png";
-import react from "../assets/images/skills/react.png";
-import tailwind from "../assets/images/skills/tailwindcss.svg";
-import python from "../assets/images/skills/python.svg";
-import typescript from "../assets/images/skills/ts.svg";
-import next from "../assets/images/skills/next.svg";
-
-const skills = [
-  { name: "HTML", image: html, level: "Advanced" },
-  { name: "CSS", image: css, level: "Advanced" },
-  { name: "JavaScript", image: js, level: "Advanced" },
-  { name: "React", image: react, level: "Intermediate" },
-  { name: "TailwindCSS", image: tailwind, level: "Intermediate" },
-  { name: "Python", image: python, level: "Intermediate" },
-  { name: "Typescript", image: typescript, level: "Intermediate" },
-  { name: "NextJS", image: next, level: "Beginner" },
-];
+import { skills } from "../constants/constants";
 
 const SkillCard = ({ name, image, level }) => {
   return (
