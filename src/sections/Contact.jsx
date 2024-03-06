@@ -1,58 +1,6 @@
 import React from "react";
-import mail from "../assets/images/contact/mail.svg";
-import location from "../assets/images/contact/location.svg";
-import blog from "../assets/images/contact/blog.svg";
-import nihongo from "../assets/images/contact/nihongo.svg";
-import resume from "../assets/images/contact/resume.svg";
-import github from "../assets/images/github.svg";
-import linkedIn from "../assets/images/linkedIn.svg";
 import Border from "../components/Border";
-
-const contact = [
-  {
-    name: "Email",
-    info: "harrisfoes@gmail.com",
-    image: mail,
-    isLink: true,
-    link: "mailto:harrisfoes@gmail.com",
-  },
-  {
-    name: "Resume",
-    info: "Click to view",
-    image: resume,
-    isLink: true,
-    link: "https://docs.google.com/document/d/1KXWIsSF6f5MfOF34eHe2xFZFN7ofek4O/edit?usp=sharing&ouid=106763750924785491162&rtpof=true&sd=true",
-  },
-  {
-    name: "Github",
-    info: "More Projects Here",
-    image: github,
-    isLink: true,
-    link: "https://github.com/harrisfoes/",
-  },
-  {
-    name: "LinkedIn",
-    info: "Let's Connect!",
-    image: linkedIn,
-    isLink: true,
-    link: "https://www.linkedin.com/in/harris-escalante-07106a94/",
-  },
-  {
-    name: "Blog",
-    info: "Hashnode Blog",
-    image: blog,
-    isLink: true,
-    link: "https://harrisfoes.hashnode.dev/",
-  },
-  { name: "Location", info: "Tokyo", image: location, isLink: false, link: "" },
-  {
-    name: "Nihongo Level",
-    info: "N5",
-    image: nihongo,
-    isLink: false,
-    link: "",
-  },
-];
+import { contact } from "../constants/constants";
 
 const ContactCard = ({ name, image, info, isLink, link }) => {
   //console.log(name);
