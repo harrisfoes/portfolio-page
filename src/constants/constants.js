@@ -12,6 +12,7 @@ import tailwind from "../assets/images/skills/tailwindcss.svg";
 import python from "../assets/images/skills/python.svg";
 import typescript from "../assets/images/skills/ts.svg";
 import next from "../assets/images/skills/next.svg";
+import supabase from "../assets/images/skills/supabase.png";
 
 import mail from "../assets/images/contact/mail.svg";
 import location from "../assets/images/contact/location.svg";
@@ -30,6 +31,7 @@ const skills = [
   { name: "Python", image: python, level: "Intermediate" },
   { name: "Typescript", image: typescript, level: "Intermediate" },
   { name: "NextJS", image: next, level: "Beginner" },
+  { name: "Supabase", image: supabase, level: "Beginner" },
 ];
 
 const projects = [
