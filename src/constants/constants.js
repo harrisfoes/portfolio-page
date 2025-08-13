@@ -1,8 +1,9 @@
-import audio_ecomm from "../assets/images/projects/audio-ecomm.jpg";
+import audioEcomm from "../assets/images/projects/audio-ecomm.jpg";
 import portfolio from "../assets/images/projects/portfolio.jpg";
 import multistep from "../assets/images/projects/multistep.jpg";
 import crypto from "../assets/images/projects/crypto.png";
-import countrylist from "../assets/images/projects/country-list.jpg";
+import countryList from "../assets/images/projects/country-list.jpg";
+import smallProjects from "../assets/images/projects/small-projects.jpg";
 
 import html from "../assets/images/skills/html5.png";
 import css from "../assets/images/skills/css.png";
@@ -37,7 +38,7 @@ const skills = [
 const projects = [
   {
     name: "Audiophile Ecommerce Website",
-    image: audio_ecomm,
+    image: audioEcomm,
     isFeatured: true,
     tech: ["React", "TailwindCSS"],
     desc: "A responsive, multi-page, e-commerce website with product pages, an add-to-cart feature and validated forms that collect shipping details",
@@ -55,7 +56,7 @@ const projects = [
   },
   {
     name: "REST Countries API with color theme switcher",
-    image: countrylist,
+    image: countryList,
     isFeatured: false,
     tech: ["React", "TailwindCSS", "Typescript"],
     desc: "First Typescript project. Search for Countries and their details. Light-Dark theme switching that checks for browser's preference.",
@@ -79,6 +80,15 @@ const projects = [
     desc: "A mobile-responsive landing page for a Crypto trading website. Guaranteed to take you to the moon (maybe)",
     link: "https://harrisfoes.github.io/crypto-page",
     code: "https://github.com/harrisfoes/crypto-page",
+  },
+  {
+    name: "Small Projects",
+    image: smallProjects,
+    isFeatured: false,
+    tech: ["React", "TailwindCSS"],
+    desc: "These are other small projects I've made.",
+    link: "https://harrisfoes.github.io/small-web-projects",
+    code: "https://github.com/harrisfoes/small-web-projects",
   },
 ];
 
