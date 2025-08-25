@@ -1,4 +1,3 @@
-import React from "react";
 import Border from "../components/Border";
 import { contact } from "../constants/constants";
 

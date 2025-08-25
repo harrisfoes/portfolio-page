@@ -131,7 +131,7 @@ const contact = [
   { name: "Location", info: "Tokyo", image: location, isLink: false, link: "" },
   {
     name: "Nihongo Level",
-    info: "N5",
+    info: "N4",
     image: nihongo,
     isLink: false,
     link: "",
